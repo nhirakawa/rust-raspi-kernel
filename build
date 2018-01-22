@@ -1,0 +1,7 @@
+#!/bin/sh
+
+rustc --target arm-unknown-linux-gnueabihf -O --emit=obj src/kernel.rs
+arm-none-eabi-gcc -O0 -mfpu=vfp -mfloat-abi=hard -march=armv6zk -mtune=arm1176jzf-s -nostartfiles -specs=nosys.specs kernel.o -o kernel.elf
+arm-none-eabi-objcopy kernel.elf -O binary kernel.img
+rm kernel.elf
+rm kernel.o

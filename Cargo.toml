@@ -1,0 +1,6 @@
+[package]
+name = "rust-raspi-kernel"
+version = "0.1.0"
+authors = ["Nick Hirakawa <nickhirakawa@gmail.com>"]
+
+[dependencies]
