@@ -15,8 +15,6 @@ Assumes running on a Raspberry Pi Model B+ (rev 1.2)
 
 ### Program versions
 
-`rustc --version`
-
 ```shell
 rustc --version
 rustc 1.25.0-nightly (5965b7901 2018-01-19)
@@ -31,7 +29,8 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
 ```shell
-arm-none-eabi-objcopy --versionGNU objcopy (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 2.29.51.20171128Copyright (C) 2017 Free Software Foundation, Inc.This program is free software; you may redistribute it under the terms ofthe GNU General Public License version 3 or (at your option) any later version.
+arm-none-eabi-objcopy --version
+GNU objcopy (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 2.29.51.20171128Copyright (C) 2017 Free Software Foundation, Inc.This program is free software; you may redistribute it under the terms ofthe GNU General Public License version 3 or (at your option) any later version.
 This program has absolutely no warranty.
 ```
 
